@@ -1,0 +1,36 @@
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    //padding: 2rem 3rem;
+
+    .icon{
+        display: none;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+        font-family: var(--macondo);
+        text-decoration: none;
+        margin-top: .5rem;
+        
+    }
+
+    li:hover{
+        color: #D591CE;
+        transition: ease-in-out 1s;
+    }
+
+    @media screen and (width <= 675px){
+        ul{
+            display: none;
+        }
+
+        .icon{
+            margin-top: 0.5rem;
+            display: block;
+        }
+    }
+
+}
