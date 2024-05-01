@@ -1,0 +1,38 @@
+.menu-container{
+    display: flex;
+    //background-color: #D591CE;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    
+
+    .icon{
+        display: none;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+        font-family: var(--macondo);
+        text-decoration: none;
+        margin-top: .5rem;
+        
+    }
+
+    li:hover{
+        color: #D591CE;
+    }
+
+    @media screen and (width <= 675px){
+        ul{
+            display: none;
+        }
+
+        .icon{
+            margin-top: 0.5rem;
+            display: block;
+        }
+    }
+
+}
