@@ -1,10 +1,11 @@
 .banner-container{
     display: flex;
+    z-index: 2;
     justify-content: space-between;
     //gap: 35rem;
     align-items: center;
     overflow: hidden;
-    margin-top: 10rem;
+    margin-top: 5rem;
 
     .banner-info{
         font-family: var(--mongolian);
@@ -34,13 +35,26 @@
         }
     }
 
-    img{
-        width: 35%;
-        position: absolute;
-        right: 0;   
+    .florangel-pic2{
+        display: none;
+        margin-top: 3rem;
+        
+        img{
+            width: 50%;
+            margin-bottom: 2rem;
+            border-radius: 5rem;
+        }
+    }
+
+    .florangel-pic{
+        width: 30%;
+        //max-height: 60vh;
+        //position: absolute;
+        //right: 0;   
         background-image: url("/cute-flower.png");
         background-repeat: no-repeat;
         background-size: cover;
+        z-index: 1;
     }
 
     @media screen and (width <= 1066px){
@@ -64,12 +78,39 @@
 
     @media screen and (width <= 870px){
         flex-direction: column;
+
         .banner-info{
             width: 100%;
+            text-align: center;
         }
 
-        img{
-            position: relative;
+        .florangel-pic{
+            display: none;
+        }
+
+        .florangel-pic2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
+
+    @media screen and (width <= 870px){
+        margin-top: 5rem;
+    }
+
+    .wave{
+        background-image: url("/wave.svg"), linear-gradient(transparent, transparent);;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        position: absolute;
+        margin-bottom: -5rem;
+        width: 100%;
+        height: 35%;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
 }
+

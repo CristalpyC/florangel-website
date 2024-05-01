@@ -1,7 +1,10 @@
 .menu-container{
     display: flex;
+    //background-color: #D591CE;
     justify-content: space-between;
-    //padding: 2rem 3rem;
+    position: sticky;
+    top: 0;
+    
 
     .icon{
         display: none;
@@ -19,7 +22,6 @@
 
     li:hover{
         color: #D591CE;
-        transition: ease-in-out 1s;
     }
 
     @media screen and (width <= 675px){
