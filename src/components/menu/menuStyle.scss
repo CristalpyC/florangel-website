@@ -4,7 +4,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    
+    padding: 2rem 3rem;
 
     .icon{
         display: none;
@@ -33,6 +33,10 @@
             margin-top: 0.5rem;
             display: block;
         }
+    }
+
+    @media screen and (width <= 450px){
+        padding: 1rem;
     }
 
 }

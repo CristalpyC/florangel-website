@@ -1,0 +1,74 @@
+.history-pics{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+    div{
+        background-color: #fff;
+    }
+
+    .pic1{
+        img{
+            transform:rotate(-10deg);
+            border: #8CB5B8 solid 1rem;
+            width: 15rem;
+
+            @media screen and (width <= 435px){
+                width: 50%;
+                border-width: 10px;
+            }
+        }
+
+        .start,
+        .start2{
+            border: none;
+            width: 3rem;
+            position: absolute;  
+            
+            @media screen and (width <= 435px){
+                width: 15%;
+            }
+        }
+
+        .start2{
+            margin: 3rem;
+            width: 1.5rem;
+
+            @media screen and (width <= 435px){
+                width: 10%;
+            }
+        }
+    }
+
+    .pic2{
+        display: flex;
+        img{
+            width: 15rem;
+            transform:rotate(5deg);
+            border: #DFE0A1 solid 1rem;
+            //z-index: 2;
+
+            @media screen and (width <= 435px){
+                width: 50%;
+                border-width: 10px;
+            }
+        }
+        .rainbow{
+            margin-top: 2rem;
+            z-index: 1;
+            max-width: 15%;
+            border: none;
+        }
+    }
+
+    .start2{
+        margin: 3rem;
+        width: 2rem;
+        border: none;
+
+        @media screen and (width <= 435px){
+            width: 10%;
+        }
+    }
+
+}

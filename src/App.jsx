@@ -1,10 +1,12 @@
 import './App.css'
-import { Home } from './sections/Home'
+import { Menu } from './components/menu/Menu'
+import { Main } from './sections/Main'
 
 function App() {
   return (
     <main>
-      <Home />
+      <Menu />
+      <Main />
     </main>
   )
 }

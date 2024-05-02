@@ -1,0 +1,31 @@
+.history-container{
+    background-color: #ffff;
+
+    h3{
+        font-family: var(--macondo);
+        color: #EA7DCB;
+
+        @media screen and (width <= 1066px){
+            font-size: 5.5vmin;
+        }
+    }
+
+    h1{
+        font-family: var(--mclaren);
+
+        @media screen and (width <= 1066px){
+            font-size: 7vmin;
+        }
+    }
+
+    h3,h1{
+        background-color: #FFFF;
+        margin-bottom: 1rem;
+    }
+
+    /*@media screen and (width <= 1066px){
+        h3{
+            font-size: 4vmin;
+        }
+    }*/
+}

@@ -1,0 +1,7 @@
+.history-container{
+    display: flex;
+
+    @media screen and (width <= 850px){
+        flex-wrap: wrap;
+    }
+}

@@ -2,15 +2,20 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: #FFF1F6;
+  
 }
 
 body{
+  background-color: #FFF1F6;
+}
+
+/*.history-section{
   padding: 2rem 3rem;
+  background-color: #FFFF;
 }
 
 @media screen and (width <= 450px){
-  body{
+  .history-section{
     padding: 1rem;
   }
-}
+}*/
