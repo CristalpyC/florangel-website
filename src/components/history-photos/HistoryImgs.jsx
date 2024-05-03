@@ -13,7 +13,6 @@ export const HistoryImgs = () => {
         <img src="/history-img2.jpg" alt="Florangel" />
       </div>
       <img className="start2" src="https://static.vecteezy.com/system/resources/previews/021/508/239/non_2x/gold-star-golden-shotting-star-transparent-gold-bokeh-stars-free-free-png.png" alt="" />
-
     </div>
   )
 }

@@ -18,6 +18,7 @@ export const Banner = () => {
         </div>
        {/* <div className="wave"></div>*/}
       </div>
+      <img className="wavy" src="/wave.svg" alt="" />
     </>
   )
 }
