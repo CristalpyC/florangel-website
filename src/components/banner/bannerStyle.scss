@@ -36,7 +36,7 @@
         }
     }
 
-    .florangel-pic2{
+    /*.florangel-pic2{
         display: none;
         margin-top: 3rem;
         
@@ -45,7 +45,7 @@
             margin-bottom: 2rem;
             border-radius: 5rem;
         }
-    }
+    }*/
 
     .florangel-pic{
         width: 30%;
@@ -86,14 +86,19 @@
         }
 
         .florangel-pic{
-            display: none;
+            /*display: flex;
+            justify-content: center;
+            align-items: center;*/
+            margin-top: 3rem;
+            width: 80%;
+            //display: none;
         }
 
-        .florangel-pic2{
+        /*.florangel-pic2{
             display: flex;
             justify-content: center;
             align-items: center;
-        }
+        }*/
     }
 
     @media screen and (width <= 450px){
