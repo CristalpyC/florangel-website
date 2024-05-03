@@ -1,11 +1,12 @@
 .banner-container{
     display: flex;
-    z-index: 2;
+    //z-index: 2;
     justify-content: space-between;
     //gap: 35rem;
     align-items: center;
     overflow: hidden;
-    margin-top: 5rem;
+    //margin-top: 1rem;
+    padding: 2rem 3rem;
 
     .banner-info{
         font-family: var(--mongolian);
@@ -35,16 +36,16 @@
         }
     }
 
-    .florangel-pic2{
+    /*.florangel-pic2{
         display: none;
         margin-top: 3rem;
         
         img{
-            width: 50%;
+            width: 80%;
             margin-bottom: 2rem;
             border-radius: 5rem;
         }
-    }
+    }*/
 
     .florangel-pic{
         width: 30%;
@@ -58,7 +59,7 @@
     }
 
     @media screen and (width <= 1066px){
-        margin-top: 15%;
+        //margin-top: 15%;
 
         .banner-info{
             width: 60%;
@@ -71,7 +72,7 @@
                 font-size: 4vmin;
             }
             button{
-                font-size: 3vmin;
+                font-size: 3.5vmin;
             }
         }
     }
@@ -85,32 +86,49 @@
         }
 
         .florangel-pic{
-            display: none;
+            /*display: flex;
+            justify-content: center;
+            align-items: center;*/
+            margin-top: 3rem;
+            width: 80%;
+            //display: none;
         }
 
-        .florangel-pic2{
+        /*.florangel-pic2{
             display: flex;
             justify-content: center;
             align-items: center;
-        }
+        }*/
     }
 
-    @media screen and (width <= 870px){
+    @media screen and (width <= 450px){
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+
+    /*@media screen and (width <= 870px){
         margin-top: 5rem;
-    }
+    }*/
 
-    .wave{
-        background-image: url("/wave.svg"), linear-gradient(transparent, transparent);;
+    /*.wave{
+        background-image: url("/wave.svg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
         position: absolute;
-        margin-bottom: -5rem;
+        //margin-bottom: -53rem;
         width: 100%;
         height: 35%;
         right: 0;
         bottom: 0;
         z-index: -1;
-    }
+    }*/
+}
+
+.wavy{
+    //width: 100%;
+    //height: 100%;
+    position: relative;
+    bottom: -1rem;
 }
 

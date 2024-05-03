@@ -9,7 +9,7 @@ export const Menu = () => {
         <ul>
             <li>Inicio</li>
             <li>Historia</li>
-            <li>Interes</li>
+            <li>Interés</li>
             <li>Galería</li>
             <li>Familia</li>
         </ul>

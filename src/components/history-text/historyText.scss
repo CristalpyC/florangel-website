@@ -1,0 +1,47 @@
+.history-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 5rem;
+
+    .history-container{
+        background-color: #ffff;
+        width: 80%;
+    
+        h3{
+            font-family: var(--macondo);
+            color: #EA7DCB;
+    
+            @media screen and (width <= 917px){
+                font-size: 5.5vmin;
+            }
+        }
+    
+        h1{
+            font-family: var(--mclaren);
+    
+            @media screen and (width <= 917px){
+                font-size: 7vmin;
+            }
+        }
+    
+        h3,h1{
+            background-color: #FFFF;
+            margin-bottom: 1rem;
+        }
+    
+        @media screen and (width <= 917px){
+            h3{
+                font-size: 4vmin;
+            }
+        }
+    }
+
+    @media screen and (width <= 917px){
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

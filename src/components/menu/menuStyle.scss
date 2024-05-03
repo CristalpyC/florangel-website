@@ -1,10 +1,11 @@
 .menu-container{
     display: flex;
-    //background-color: #D591CE;
+    background-color: #FFF1F6;
     justify-content: space-between;
     position: sticky;
     top: 0;
-    
+    z-index: 3;
+    padding: 2rem 3rem;
 
     .icon{
         display: none;
@@ -33,6 +34,10 @@
             margin-top: 0.5rem;
             display: block;
         }
+    }
+
+    @media screen and (width <= 450px){
+        padding: 1rem;
     }
 
 }
