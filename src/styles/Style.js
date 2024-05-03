@@ -5,7 +5,7 @@ export const Text = styled.p`
     background-color: #FFFF;
     margin-bottom: 1rem;
 
-    @media screen and (width <= 1066px){
+    @media screen and (width <= 917px){
         font-size: 4vmin;
     }
 `
@@ -15,7 +15,7 @@ export const TextLine = styled.p`
     background-color: #FFFF;
     color: #EA7DCB;
 
-    @media screen and (width <= 1066px){
+    @media screen and (width <= 917px){
         font-size: 4vmin;
     }
 `

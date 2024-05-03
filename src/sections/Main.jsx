@@ -1,7 +1,6 @@
 import { Banner } from "../components/banner/Banner"
 import { HistoryImgs } from "../components/history-photos/HistoryImgs";
 import { HistoryText } from "../components/history-text/HistoryText";
-import { History } from "./history/History";
 import "./mainStyle.scss";
 
 export const Main = () => {
@@ -12,8 +11,8 @@ export const Main = () => {
           {/*<div className="wave"></div>*/}
         </section>
         <section className="body-section">
-          {/*<HistoryText />*/}
-          <History />
+          <HistoryText />
+          {/*<History />*/}
         </section>
     </main>
   )

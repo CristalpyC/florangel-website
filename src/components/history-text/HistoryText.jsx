@@ -1,9 +1,12 @@
 import { Text, TextLine } from "../../styles/Style";
+import { HistoryImgs } from "../history-photos/HistoryImgs";
 import "./historyText.scss";
 
 export const HistoryText = () => {
   return (
-    <div className="history-container">
+    <div className="history-section">
+      <HistoryImgs />
+      <div className="history-container">
         <h3>Sobre mí</h3>
         <h1>Un Viaje de Amor, Alegría e Inteligencia</h1>
         <Text>
@@ -28,6 +31,7 @@ export const HistoryText = () => {
             la verdadera magnitud de su brillantez.
         </Text>
         <TextLine>@el_cromosoma.de_florangel</TextLine>
+    </div>
     </div>
   );
 }
