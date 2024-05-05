@@ -41,3 +41,9 @@ export const Titleh1 = styled.h1`
         font-size: 5vmin;
     }
 `
+
+export const Wavy = styled.img`
+    width: 100%;
+    height: 100%;
+    margin-top: -1rem;
+`

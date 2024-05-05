@@ -4,6 +4,8 @@ import { Interest } from "../interest/Interest";
 import { Photos } from "../../components/photos/gallery-photos/Photos";
 
 import "./mainStyle.scss";
+import { Wavy } from "../../styles/Style";
+import { FamSection } from "../family/FamSection";
 
 export const Main = () => {
   return (
@@ -16,10 +18,16 @@ export const Main = () => {
           <HistoryText />
         </section>
 
-        <img className="wavy" src="/top-wave.svg" alt="" />
+        {/*wavy header*/}
+        <Wavy className="wavy" src="/top-wave.svg" alt="" />
         <section className="interest-section">
           <Interest />
           <Photos />
+        </section>
+        <Wavy className="wavy" src="/wave.svg" alt="" />
+
+        <section className="body-section">
+          <FamSection />
         </section>
     </main>
   )
