@@ -6,10 +6,11 @@ import { Photos } from "../../components/photos/gallery-photos/Photos";
 import "./mainStyle.scss";
 import { Wavy } from "../../styles/Style";
 import { FamSection } from "../family/FamSection";
+import { Footer } from "../../components/footer/Footer";
 
 export const Main = () => {
   return (
-    <main className="main-container">
+    <article className="main-container">
         <section className="banner-section">
           <Banner />
         </section>
@@ -29,6 +30,7 @@ export const Main = () => {
         <section className="body-section">
           <FamSection />
         </section>
-    </main>
+        <Footer />
+    </article>
   )
 }

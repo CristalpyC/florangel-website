@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Text = styled.p`
     font-family: var(--mongolian);
-    background-color: ${({ bgColor }) => bgColor};
+    background-color: ${({ bgcolor }) => bgcolor};
     margin-bottom: 1rem;
 
     @media screen and (width <= 917px){
@@ -46,4 +46,20 @@ export const Wavy = styled.img`
     width: 100%;
     height: 100%;
     margin-top: -1rem;
+`
+
+export const FooterLine = styled.div`
+    padding: 25px;
+    width: 100%;
+`
+
+export const Message = styled.p`
+    font-family: var(--mclaren);
+    color: ${({ textcolor }) => textcolor};
+    font-weight: bold;
+    text-align: center;
+
+    @media screen and (width <= 917px){
+        font-size: 3vmin;
+    }
 `

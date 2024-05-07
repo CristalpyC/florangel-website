@@ -4,7 +4,7 @@ import "./photos.scss";
 export const Photos = () => {
   return (
     <section className="gallery">
-      <Titleh1>Galería de Momentos Especiales</Titleh1>
+      <Titleh1>Galería de momentos especiales</Titleh1>
       <div>
         <img src="/cutie.jpg" alt="" />
         <img src="/fam.jpg" alt="" />
