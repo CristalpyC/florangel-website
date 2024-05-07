@@ -8,8 +8,8 @@ export const HistoryText = () => {
       <HistoryImgs />
       <div className="history-container">
         <h3>Sobre mí</h3>
-        <h1>Un Viaje de Amor, Alegría e Inteligencia</h1>
-        <Text>
+        <h1>Un Viaje de Amor, alegría e inteligencia</h1>
+        <Text bgcolor="#FFFF">
             Florangel es una niña llena de energía y alegría, nacida el 20 de mayo 
             del 2021. Desde el momento en que llegó al mundo, ha iluminado nuestras 
             vidas con su sonrisa contagiosa y su espíritu lleno de amor. 
@@ -18,7 +18,7 @@ export const HistoryText = () => {
             inquebrantable y su capacidad para encontrar la felicidad en las pequeñas 
             cosas. 
         </Text>
-        <Text>
+        <Text bgcolor="#FFFF">
             Desde sus primeros pasos hasta sus travesuras diarias, cada momento con 
             Florangel es un regalo precioso que atesoramos con todo nuestro corazón. 
             Desde su nacimiento, Florangel ha demostrado ser una niña 

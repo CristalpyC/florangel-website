@@ -1,4 +1,5 @@
 .main-container{
+
     .banner-section{
         .wave{
             background-image: url("/wave.svg");
@@ -15,7 +16,8 @@
         }
     }
 
-    .body-section{
+    .body-section,
+    .interest-section{
         padding: 2rem 3rem;
         background-color: #FFFF;
 
@@ -23,4 +25,14 @@
             padding: 1rem;
         }
     }
+
+    .interest-section{
+        background-color: #FFF1F6;
+    }
+
+    /*.wavy{
+        width: 100%;
+        height: 100%;
+        margin-top: -1rem;
+    }*/
 }

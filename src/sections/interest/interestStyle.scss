@@ -1,0 +1,27 @@
+/*.wavy{
+    width: 100%;
+    height: 100%;
+    margin-top: -5rem;
+}*/
+.interest-container{
+    //margin-top: 5rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (width <= 917px){
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+
+    .info{
+        width: 50%;
+
+        @media screen and (width <= 917px){
+            width: 100%;
+        }
+    }
+
+}

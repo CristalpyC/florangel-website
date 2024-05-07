@@ -1,0 +1,37 @@
+.photos-section{
+    @media screen and (width <= 1120px){
+        margin-top: 5rem;
+    }
+
+    @media screen and (width <= 917px){
+        margin-top: 0rem;
+        background-image: url("/flower-bouquet-watercolor-wedding-flower-free-png.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    img{
+        width: 15rem;
+        height: auto;
+        margin: 0rem .5rem .2rem 0rem;
+
+        @media screen and (width <= 1120px){
+            width: 11.5rem;
+        }
+
+        @media screen and (width <= 596px){
+            width: 40%;
+        }
+    }
+    .flower-pic{
+        position: absolute;
+        right: 0;
+        margin-top: -2rem;
+        margin-right: 1rem;
+        width: 5rem;
+        height: 5rem;
+
+        @media screen and (width <= 917px){
+            display: none;
+        } 
+    }
+}
