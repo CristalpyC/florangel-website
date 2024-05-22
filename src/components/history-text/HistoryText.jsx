@@ -1,14 +1,17 @@
 import { Text, TextLine } from "../../styles/Style";
 import { HistoryImgs } from "../history-photos/HistoryImgs";
 import "./historyText.scss";
+import { Fade } from "react-awesome-reveal";
 
 export const HistoryText = () => {
   return (
     <div className="history-section">
       <HistoryImgs />
       <div className="history-container">
+      <Fade>
         <h3>Sobre mí</h3>
         <h1>Un Viaje de Amor, alegría e inteligencia</h1>
+        
         <Text bgcolor="#FFFF">
             Florangel es una niña llena de energía y alegría, nacida el 20 de mayo 
             del 2021. Desde el momento en que llegó al mundo, ha iluminado nuestras 
@@ -31,6 +34,7 @@ export const HistoryText = () => {
             la verdadera magnitud de su brillantez.
         </Text>
         <TextLine>@el_cromosoma.de_florangel</TextLine>
+      </Fade>
     </div>
     </div>
   );

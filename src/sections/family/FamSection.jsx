@@ -1,11 +1,12 @@
 import { Text, Title } from "../../styles/Style";
 import "./famStyle.scss";
+import { Slide } from "react-awesome-reveal";
 
 export const FamSection = () => {
   return (
     <section className="fam-section">
         <div>
-            <Title>Mi familia</Title>
+            <Slide><Title>Mi familia</Title></Slide>
             <Text>Estoy emocionada de compartirles un vistazo a mi 
                 increíble familia. Mi mamá, Flor, es el corazón de 
                 nuestro hogar. Con su amor infinito y su sabiduría, 
