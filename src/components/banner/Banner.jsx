@@ -14,10 +14,6 @@ export const Banner = () => {
         </div>
         
         <img className="florangel-pic animate__animated animate__bounceInRight" src="/florangel-img-2.png" alt="Florangel" />
-        {/*<div className="florangel-pic2">
-          <img src="/florangel-img-2.png" alt="Florangel" />
-  </div>*/}
-       {/* <div className="wave"></div>*/}
       </div>
       <img className="wavy" src="/wave.svg" alt="" />
     </>

@@ -21,15 +21,18 @@ export const Main = () => {
 
         {/*wavy header*/}
         <Wavy className="wavy" src="/top-wave.svg" alt="" />
+
         <section className="interest-section">
           <Interest />
           <Photos />
         </section>
+        
         <Wavy className="wavy" src="/wave.svg" alt="" />
 
         <section className="body-section">
           <FamSection />
         </section>
+
         <Footer />
     </article>
   )

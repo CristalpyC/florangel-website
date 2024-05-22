@@ -1,11 +1,11 @@
-import "./logoStyle.scss";
+import { H2, Img, LogoContainer } from "../../styles/Style";
 import "animate.css";
 
 export const Logo = () => {
   return (
-    <div className="logo-container animate__animated animate__pulse">
-        <img src="/flower.png" alt="" />
-        <h1>Florangel</h1>
-    </div>
+    <LogoContainer className="animate__animated animate__pulse">
+        <Img src="/flower.png" alt="" />
+        <H2>Florangel</H2>
+    </LogoContainer>
   )
 }
