@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    //justify-content: space-between;
-
+    
     @media screen and (width <= 917px){
         flex-direction: column;
         text-align: center;
@@ -23,7 +22,7 @@
 
         @media screen and (width <= 917px){
             display: block;
-            width: 100%;
+            width: 55%;
         }
     }
 

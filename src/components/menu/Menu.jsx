@@ -1,6 +1,6 @@
 import { Logo } from "../logo/Logo";
-import MenuIcon from '@mui/icons-material/Menu';
 import "./menuStyle.scss";
+import FadeMenu from "../mobile-menu/FadeMenu";
 
 export const Menu = () => {
   return (
@@ -13,7 +13,7 @@ export const Menu = () => {
             <li>Galería</li>
             <li>Familia</li>
         </ul>
-        <MenuIcon className="icon"/>
+        <FadeMenu className='burger-menu'/>
     </nav>
   )
 }

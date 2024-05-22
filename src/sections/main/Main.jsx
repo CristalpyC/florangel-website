@@ -7,6 +7,8 @@ import "./mainStyle.scss";
 import { Wavy } from "../../styles/Style";
 import { FamSection } from "../family/FamSection";
 import { Footer } from "../../components/footer/Footer";
+import { Slide, Zoom, Fade, Rotate, Bounce, Flip, Hinge, JackInTheBox } from "react-awesome-reveal";
+
 
 export const Main = () => {
   return (
@@ -21,15 +23,18 @@ export const Main = () => {
 
         {/*wavy header*/}
         <Wavy className="wavy" src="/top-wave.svg" alt="" />
+
         <section className="interest-section">
           <Interest />
           <Photos />
         </section>
+
         <Wavy className="wavy" src="/wave.svg" alt="" />
 
         <section className="body-section">
           <FamSection />
         </section>
+
         <Footer />
     </article>
   )

@@ -63,3 +63,18 @@ export const Message = styled.p`
         font-size: 3vmin;
     }
 `
+
+export const LogoContainer = styled.div`
+    display: flex;
+    font-family: var(--mclaren);
+`
+
+export const Img = styled.img`
+    width: 3rem;
+`
+
+export const H2 = styled.h2`
+    @media screen and (width <= 266px){
+        display: none;
+    }
+`
