@@ -1,41 +1,39 @@
 import { Banner } from "../../components/banner/Banner"
 import { HistoryText } from "../../components/history-text/HistoryText";
 import { Interest } from "../interest/Interest";
-import { Photos } from "../../components/photos/gallery-photos/Photos";
-
 import "./mainStyle.scss";
 import { Wavy } from "../../styles/Style";
 import { FamSection } from "../family/FamSection";
 import { Footer } from "../../components/footer/Footer";
-import { Slide, Zoom, Fade, Rotate, Bounce, Flip, Hinge, JackInTheBox } from "react-awesome-reveal";
+import { Photos } from "../../components/gallery-photos/Photos";
 
 
 export const Main = () => {
   return (
-    <article className="main-container">
-        <section className="banner-section">
+    <div className="main-container">
+        <article className="banner-section">
           <Banner />
-        </section>
+        </article>
 
-        <section className="body-section">
+        <article className="body-section">
           <HistoryText />
-        </section>
+        </article>
 
         {/*wavy header*/}
         <Wavy className="wavy" src="/top-wave.svg" alt="" />
 
-        <section className="interest-section">
+        <article className="interest-section">
           <Interest />
           <Photos />
-        </section>
+        </article>
 
         <Wavy className="wavy" src="/wave.svg" alt="" />
 
-        <section className="body-section">
+        <article className="body-section">
           <FamSection />
-        </section>
+        </article>
 
         <Footer />
-    </article>
+    </div>
   )
 }

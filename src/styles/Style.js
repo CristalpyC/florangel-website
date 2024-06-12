@@ -78,3 +78,28 @@ export const H2 = styled.h2`
         display: none;
     }
 `
+
+export const GalSection = styled.section`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+`
+
+export const Container = styled.div`
+    margin-bottom: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
+export const Imgs = styled.img`
+    width: 30%;
+    margin-left: 0.5rem;
+`
+
+export const Link = styled.a`
+    text-decoration: none;
+    color: #000;
+`
