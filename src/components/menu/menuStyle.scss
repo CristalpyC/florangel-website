@@ -16,12 +16,21 @@
         list-style: none;
         gap: 2rem;
         font-family: var(--macondo);
-        text-decoration: none;
         margin-top: .5rem;
+
+        .link,
+        .active-link{
+            text-decoration: none;
+            color: #000;
+        }
+
+        .active-link{
+            color: #D591CE;
+        }
         
     }
 
-    li:hover{
+    .link:hover{
         color: #D591CE;
     }
 

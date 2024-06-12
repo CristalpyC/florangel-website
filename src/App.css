@@ -7,6 +7,8 @@
 
 body{
   background-color: #FFF1F6;
+  scroll-behavior: smooth;
+
 }
 
 /*.history-section{

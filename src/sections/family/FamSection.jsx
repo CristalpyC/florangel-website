@@ -4,19 +4,14 @@ import { Slide } from "react-awesome-reveal";
 
 export const FamSection = () => {
   return (
-    <section className="fam-section">
+    <section id="fam-section">
         <div>
             <Slide><Title>Mi familia</Title></Slide>
-            <Text>Estoy emocionada de compartirles un vistazo a mi 
-                increíble familia. Mi mamá, Flor, es el corazón de 
-                nuestro hogar. Con su amor infinito y su sabiduría, 
-                siempre está ahí para guiarme y cuidarme. 
-                Mi papá, Ángel, es mi héroe. Su fuerza y su cariño me 
-                hacen sentir segura y amada cada día. Luego están mis 
-                hermanas, Dariana y Ángela, mis mejores amigas. 
-                Con ellas, cada día es una aventura llena de risas y 
-                diversión. Juntas, formamos un equipo imparable, 
-                unidos por el amor y la complicidad.
+            <Text>
+              Estoy emocionada de compartirles un vistazo de mi increíble familia. 
+              Mi mamá, Flor, es el corazón de nuestro hogar. Con su amor infinito y 
+              sabiduría, siempre está ahí para guiarme y cuidarme. Mi papá, Ángel, 
+              es mi héroe. Su fuerza y cariño me hacen sentir segura y amada cada día. Luego están mis hermanas, Dariana y Ángela, mis mejores amigas. Con ellas, cada día es una aventura llena de risas y diversión. Juntas, formamos un equipo imparable, unido por el amor y la complicidad. Y no puedo olvidar a nuestra perrita, Cielo, que con su energía y alegría añade aún más amor a nuestra familia.
             </Text>
         </div>
         <img src="/fam-portrait.png" alt="" />

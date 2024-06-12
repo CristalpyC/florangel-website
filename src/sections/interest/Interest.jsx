@@ -6,24 +6,19 @@ import { Slide } from "react-awesome-reveal";
 export const Interest = () => {
   return (
     <>
-    <article className="interest-container">
+    <article id="interest-container">
       <section className="info">
-        <Slide><Title>Intereses</Title></Slide>
+        <Slide><Title>Interés</Title></Slide>
         <Slide>
           <Text>
-            Florangel encuentra felicidad en cada bocado, 
-            ya que es una entusiasta amante de la comida. 
-            Desde su plato favorito hasta nuevos sabores 
-            por descubrir, cada comida es una aventura 
-            deliciosa para ella. Además, Florangel 
-            disfruta al máximo jugando con sus adorables 
-            hermanas, creando vínculos inquebrantables 
-            llenos de risas y juegos. Su espíritu aventurero
-            la lleva a explorar nuevos lugares y 
-            descubrir el mundo que la rodea con curiosidad 
-            y asombro. No hay momento demasiado precioso 
-            para capturar, ya que Florangel adora tomarse 
-            fotos para crear recuerdos inolvidables. 
+            Encuentro felicidad en cada bocado, ya que soy una entusiasta amante de la 
+            comida. Desde mi plato favorito hasta nuevos sabores por descubrir, 
+            cada comida es una aventura deliciosa para mí. Además, disfruto al máximo 
+            jugar con mis adorables hermanas, creando vínculos inquebrantables llenos 
+            de risas y juegos. Mi espíritu aventurero me lleva a explorar nuevos lugares
+            y descubrir el mundo que me rodea con curiosidad y asombro. No hay momento 
+            demasiado precioso para capturar, ya que adoro tomarme fotos para crear 
+            recuerdos inolvidables.
           </Text>
         </Slide>
 
