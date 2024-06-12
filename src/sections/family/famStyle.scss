@@ -1,0 +1,36 @@
+#fam-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    @media screen and (width <= 917px){
+        flex-direction: column;
+        text-align: center;
+    }
+
+    div{
+        margin-top: 2rem;
+        width: 60%;
+
+        @media screen and (width <= 917px){
+            width: 100%;
+        }
+    }
+
+    .mobile-img{
+        display: none;
+
+        @media screen and (width <= 917px){
+            display: block;
+            width: 55%;
+        }
+    }
+
+    img{
+        width: 30%;
+
+        @media screen and (width <= 917px){
+            display: none;
+        }
+    }
+}

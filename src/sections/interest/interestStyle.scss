@@ -1,0 +1,21 @@
+#interest-container{
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (width <= 917px){
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+
+    .info{
+        width: 50%;
+
+        @media screen and (width <= 917px){
+            width: 100%;
+        }
+    }
+
+}

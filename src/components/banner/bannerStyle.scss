@@ -1,0 +1,87 @@
+#banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 2rem 3rem;
+
+    .banner-info{
+        font-family: var(--mongolian);
+        width: 50%;
+
+        h1{
+            font-family: var(--mclaren);
+            font-size: 3rem;
+            font-weight: 400;
+        }
+        p{
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        button{
+            background-color: #D2EAE1;
+            box-shadow: 0px 2px 5px gray;
+            font-size: 1.2rem;
+            padding: 10px;
+            min-width: 25%;
+            border: none;
+            transition: ease-in-out 1s;
+        }
+        button:hover{
+            background-color: #b0dacb;
+            transform: scale(1.1);
+        }
+    }
+
+
+    .florangel-pic{
+        width: 30%; 
+        background-image: url("/cute-flower.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+
+    @media screen and (width <= 1066px){
+        .banner-info{
+            width: 60%;
+            
+            h1{
+                font-size: 7vmin;
+            }
+            
+            p{
+                font-size: 4vmin;
+            }
+            button{
+                font-size: 3.5vmin;
+            }
+        }
+    }
+
+    @media screen and (width <= 870px){
+        flex-direction: column;
+
+        .banner-info{
+            width: 100%;
+            text-align: center;
+        }
+
+        .florangel-pic{
+            margin-top: 3rem;
+            width: 80%;
+        }
+    }
+
+    @media screen and (width <= 450px){
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+
+}
+
+.wavy{
+    position: relative;
+    bottom: -1rem;
+}
+
